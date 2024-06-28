@@ -1,11 +1,12 @@
-﻿using ShopAPI.Models;
+﻿using ShopAPI.DTOs.Item;
+using ShopAPI.Models;
 
 namespace ShopAPI.Services.ItemService
 {
     public interface IItemService
     {
-        Task<ServiceResponse<List<Item>>> GetAllItems();
-        Task<ServiceResponse<Item>> GetItemByID(int ID);
-        Task<ServiceResponse<Item>> AddNewItem(Item newItem);
+        Task<ServiceResponse<List<GetItemDTO>>> GetAllItems();
+        Task<ServiceResponse<GetItemDTO>> GetItemByID(int ID);
+        Task<ServiceResponse<AddItemDTO>> AddNewItem(AddItemDTO newItem);
     }
 }

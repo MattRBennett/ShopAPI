@@ -30,3 +30,6 @@ C:\Users\Matthew-LT\Documents\GitHub\ShopAPI\ShopAPI\obj\Debug\net8.0\refint\Sho
 C:\Users\Matthew-LT\Documents\GitHub\ShopAPI\ShopAPI\obj\Debug\net8.0\ShopAPI.pdb
 C:\Users\Matthew-LT\Documents\GitHub\ShopAPI\ShopAPI\obj\Debug\net8.0\ShopAPI.genruntimeconfig.cache
 C:\Users\Matthew-LT\Documents\GitHub\ShopAPI\ShopAPI\obj\Debug\net8.0\ref\ShopAPI.dll
+C:\Users\Matthew-LT\Documents\GitHub\ShopAPI\ShopAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Matthew-LT\Documents\GitHub\ShopAPI\ShopAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Matthew-LT\Documents\GitHub\ShopAPI\ShopAPI\obj\Debug\net8.0\ShopAPI.sourcelink.json

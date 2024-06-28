@@ -17,20 +17,20 @@ namespace ShopAPI.Controllers
         }
 
         [HttpGet("GetAllItems")]
-        public async Task<ActionResult<ServiceResponse<List<Item>>>> GetAllItems()
+        public async Task<ActionResult<ServiceResponse<List<GetItemDTO>>>> GetAllItems()
         {
             return Ok(await _itemService.GetAllItems());
         }
 
         [HttpGet("{ID}")]
-        public async Task<ActionResult<ServiceResponse<Item>>> GetItemByID(int ID)
+        public async Task<ActionResult<ServiceResponse<GetItemDTO>>> GetItemByID(int ID)
         {
 
             return Ok(await _itemService.GetItemByID(ID));
         }
 
         [HttpPost("AddNewItem")]
-        public async Task<ActionResult<ServiceResponse<Item>>> AddNewItem(Item newItem)
+        public async Task<ActionResult<ServiceResponse<AddItemDTO>>> AddNewItem(AddItemDTO newItem)
         {
             return Ok(await _itemService.AddNewItem(newItem));
         }
