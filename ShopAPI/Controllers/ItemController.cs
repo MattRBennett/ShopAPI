@@ -30,9 +30,41 @@ namespace ShopAPI.Controllers
         }
 
         [HttpPost("AddNewItem")]
-        public async Task<ActionResult<ServiceResponse<AddItemDTO>>> AddNewItem(AddItemDTO newItem)
+        public async Task<ActionResult<ServiceResponse<List<GetItemDTO>>>> AddNewItem(AddItemDTO newItem)
         {
             return Ok(await _itemService.AddNewItem(newItem));
+        }
+
+        [HttpPut("UpdateItem")]
+        public async Task<ActionResult<ServiceResponse<GetItemDTO>>> UpdateItem(UpdateItemDTO item)
+        {
+            var response = await _itemService.UpdateItem(item);
+
+            if (response.Data is null) 
+            {
+                return NotFound(response);
+            }
+            else
+            {
+                return Ok(response);
+            }
+        }
+
+        [HttpDelete("DeleteItem")]
+        public async Task<ActionResult<ServiceResponse<List<GetItemDTO>>>> DeleteItem(int Id)
+        {
+            var response = await _itemService.DeleteItem(Id);
+
+            if (response.Data is null)
+            {
+                return NotFound(response);
+            }
+            else
+            {
+                return Ok(response);
+            }
+
+            
         }
     }
 }
