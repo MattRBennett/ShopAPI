@@ -1,1 +1,1 @@
-This is my .NET Core Web API practice, I am learning about MVC Patterns, Attribute Routing, ServiceReponses, Data-Transfer Objects(DTO), AutoMapper, Data Seeding and Migration, Token Authentication and Controller Autherization.
+This is my .NET Core Web API practice, I am learning about MVC Patterns, Attribute Routing, ServiceReponses, Data-Transfer Objects(DTO), AutoMapper, Data Seeding and Migration, Token Authentication and Controller Authorization.
