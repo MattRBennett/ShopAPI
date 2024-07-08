@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "http": {
+    "ShopAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

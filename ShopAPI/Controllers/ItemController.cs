@@ -30,7 +30,7 @@ namespace ShopAPI.Controllers
         }
 
         [HttpPost("AddNewItem")]
-        public async Task<ActionResult<ServiceResponse<List<GetItemDTO>>>> AddNewItem(AddItemDTO newItem)
+        public async Task<ActionResult<ServiceResponse<GetItemDTO>>> AddNewItem(AddItemDTO newItem)
         {
             return Ok(await _itemService.AddNewItem(newItem));
         }
