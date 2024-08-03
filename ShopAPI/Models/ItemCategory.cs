@@ -5,7 +5,7 @@ namespace ShopAPI.Models
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum ItemCategory
     {
-        Unasssigned = 1,
+        Unassigned = 1,
 
         Electronics = 2,
 

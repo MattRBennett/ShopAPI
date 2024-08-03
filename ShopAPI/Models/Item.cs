@@ -10,6 +10,9 @@
 
         public decimal Price { get; set; } = decimal.Zero;
 
-        public ItemCategory ItemsCategory { get; set; } = ItemCategory.Unasssigned;
+        public ItemCategory ItemsCategory { get; set; } = ItemCategory.Unassigned;
     }
 }
+
+// dotnet ef migrations add <MigrationName>
+// dotnet ef database update

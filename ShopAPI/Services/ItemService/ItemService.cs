@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ShopAPI.Data;
 using ShopAPI.Models;
 
@@ -134,6 +135,30 @@ namespace ShopAPI.Services.ItemService
             }
             catch (Exception ex) 
             { 
+                serviceResponse.Success = false;
+                serviceResponse.Message = ex.Message;
+            }
+
+            return serviceResponse;
+        }
+
+        public async Task<ServiceResponse<List<ItemCategory>>> GetItemCategories()
+        {
+            var serviceResponse = new ServiceResponse<List<ItemCategory>>();
+
+            try
+            {
+                var categoryItems = Enum.GetValues(typeof(ItemCategory)).Cast<ItemCategory>().ToList();
+
+                if (categoryItems.Count == 0 || categoryItems is null)
+                    throw new Exception("There are no categories to display.");
+
+                serviceResponse.Data = categoryItems;
+                serviceResponse.Success = true;
+                serviceResponse.Message = "Successfully returned categories!";
+            }
+            catch (Exception ex)
+            {
                 serviceResponse.Success = false;
                 serviceResponse.Message = ex.Message;
             }

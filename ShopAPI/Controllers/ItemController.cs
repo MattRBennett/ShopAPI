@@ -66,5 +66,20 @@ namespace ShopAPI.Controllers
 
             
         }
+
+        [HttpGet("GetItemCategories")]
+        public async Task<ActionResult<ServiceResponse<List<ItemCategory>>>> GetItemCategories()
+        {
+            var response = await _itemService.GetItemCategories();
+
+            if (response.Data is null)
+            {
+                return NotFound(response);
+            }
+            else
+            {
+                return Ok(response);
+            }
+        }
     }
 }
