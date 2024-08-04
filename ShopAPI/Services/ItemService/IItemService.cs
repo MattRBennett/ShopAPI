@@ -12,5 +12,6 @@ namespace ShopAPI.Services.ItemService
         Task<ServiceResponse<GetItemDTO>> UpdateItem(UpdateItemDTO item);
         Task<ServiceResponse<List<GetItemDTO>>> DeleteItem(int Id);
         Task<ServiceResponse<List<ItemCategory>>> GetItemCategories();
+        Task<ServiceResponse<List<GetItemDTO>>> GetItemsByCategory(ItemCategory itemCategory);
     }
 }

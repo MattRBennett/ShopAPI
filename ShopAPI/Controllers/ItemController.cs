@@ -8,7 +8,6 @@ namespace ShopAPI.Controllers
     [Route("api/[controller]")]
     public class ItemController : ControllerBase
     {
-
         private readonly IItemService _itemService;
 
         public ItemController(IItemService itemService) 
@@ -25,7 +24,6 @@ namespace ShopAPI.Controllers
         [HttpGet("{ID}")]
         public async Task<ActionResult<ServiceResponse<GetItemDTO>>> GetItemByID(int ID)
         {
-
             return Ok(await _itemService.GetItemByID(ID));
         }
 
@@ -63,14 +61,27 @@ namespace ShopAPI.Controllers
             {
                 return Ok(response);
             }
-
-            
         }
 
         [HttpGet("GetItemCategories")]
         public async Task<ActionResult<ServiceResponse<List<ItemCategory>>>> GetItemCategories()
         {
             var response = await _itemService.GetItemCategories();
+
+            if (response.Data is null)
+            {
+                return NotFound(response);
+            }
+            else
+            {
+                return Ok(response);
+            }
+        }
+
+        [HttpGet("GetItemsByCategory")]
+        public async Task<ActionResult<ServiceResponse<List<GetItemDTO>>>> GetItemsByCategory(ItemCategory itemCategory)
+        {
+            var response = await _itemService.GetItemsByCategory(itemCategory);
 
             if (response.Data is null)
             {

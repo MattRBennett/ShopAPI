@@ -165,5 +165,26 @@ namespace ShopAPI.Services.ItemService
 
             return serviceResponse;
         }
+
+        public async Task<ServiceResponse<List<GetItemDTO>>> GetItemsByCategory(ItemCategory itemCategory)
+        {
+            var serviceresponse = new ServiceResponse<List<GetItemDTO>>();
+
+            try
+            {
+                int categoryValue = (int)itemCategory;
+                var dbItems = _context.items.Where(x => (int)x.ItemsCategory == categoryValue).Distinct();
+                serviceresponse.Data = dbItems.Select(x => _mapper.Map<GetItemDTO>(x)).ToList();
+                serviceresponse.Success = true;
+                serviceresponse.Message = "Returned all items successfully!";
+            }
+            catch (Exception ex)
+            {
+                serviceresponse.Success = false;
+                serviceresponse.Message = ex.Message;
+            }
+
+            return serviceresponse;
+        }
     }
 }
