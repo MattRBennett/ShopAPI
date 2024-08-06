@@ -12,6 +12,8 @@ namespace ShopAPI.DTOs.Item
 
         public decimal Price { get; set; } = decimal.Zero;
 
+        public byte[] Image { get; set; } = new byte[0];
+
         public ItemCategory ItemsCategory { get; set; } = ItemCategory.Unassigned;
     }
 }

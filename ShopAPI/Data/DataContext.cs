@@ -12,7 +12,7 @@ namespace ShopAPI.Data
 
         public DbSet<Item> items => Set<Item>();
 
-        public DbSet<User> user => Set<User>();
+        public DbSet<User> Users => Set<User>();
 
     }
 }

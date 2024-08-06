@@ -100,6 +100,7 @@ namespace ShopAPI.Services.ItemService
                 existingItem.Description = item.Description;
                 existingItem.ItemsCategory = item.ItemsCategory;
                 existingItem.Price = item.Price;
+                existingItem.Image = item.Image;
 
                 await _context.SaveChangesAsync();
 

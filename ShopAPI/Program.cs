@@ -5,6 +5,7 @@ global using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore;
 
 using ShopAPI.Data;
+using ShopAPI.Services.UserService;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +20,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
+// Register the repositories
 builder.Services.AddScoped<IItemService, ItemService>();
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
