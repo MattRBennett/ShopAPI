@@ -43,9 +43,9 @@ namespace ShopAPI.Controllers
             return Ok(await _cartService.AddCartItem(cartItem));
         }
         [HttpDelete("RemoveCart")]
-        public async Task<ActionResult<List<GetCartDTO>>> RemoveCart(RemoveCartDTO removeCart)
+        public async Task<ActionResult<List<GetCartDTO>>> RemoveCart(int UserID)
         {
-            return Ok(await _cartService.RemoveCart(removeCart));
+            return Ok(await _cartService.RemoveCart(UserID));
         }
         [HttpDelete("RemoveCartItem")]
         public async Task<ActionResult<GetCartDTO>> RemoveCartItem(int UserID, int ItemID)

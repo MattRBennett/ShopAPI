@@ -140,21 +140,21 @@ namespace ShopAPI.Services.CartService
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<GetCartDTO>>> RemoveCart(RemoveCartDTO removeCart)
+        public async Task<ServiceResponse<List<GetCartDTO>>> RemoveCart(int UserID)
         {
             var serviceResponse = new ServiceResponse<List<GetCartDTO>>();
 
             try
             {
-                var existingCart = await _context.Carts.FirstOrDefaultAsync(x => x.UserID == removeCart.UserID);
+                var existingCart = await _context.Carts.FirstOrDefaultAsync(x => x.UserID == UserID);
 
                 if (existingCart is null)
-                    throw new Exception($"Cart with UserID '{removeCart.UserID}' does not exist!");
+                    throw new Exception($"Cart with UserID '{UserID}' does not exist!");
 
                 _context.Carts.Remove(existingCart);
                 await _context.SaveChangesAsync();
 
-                serviceResponse.Data = await _context.Carts.Select(x => _mapper.Map<GetCartDTO>(x)).ToListAsync();
+                
                 serviceResponse.Success = true;
                 serviceResponse.Message = "Successfully deleted cart!";
             }

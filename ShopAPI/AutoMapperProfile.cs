@@ -15,17 +15,13 @@ namespace ShopAPI
 
             CreateMap<User, GetUserDetailsDTO>();
 
-
             CreateMap<Cart, GetAllCartItemsDTO>();
-            CreateMap<Cart, AddItemToCartDTO>();
+            CreateMap<AddItemToCartDTO, Cart>();
             CreateMap<AddCartDTO, Cart>();
             CreateMap<Cart, GetCartDTO>();
             CreateMap<Cart, GetCartItemDTO>();
             CreateMap<Cart, RemoveCartDTO>();
             CreateMap<Cart, RemoveCartItemDTO>();
-
-            
-
         }
     }
 }
