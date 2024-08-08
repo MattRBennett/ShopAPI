@@ -7,7 +7,7 @@ namespace ShopAPI.Services.CartService
     {
         //Task<ServiceResponse<List<GetAllCartItemsDTO>>> GetAllCartItems();
 
-        Task<ServiceResponse<GetCartDTO>> RemoveCartItem(int UserID, Item item);
+        Task<ServiceResponse<GetCartDTO>> RemoveCartItem(int UserID, int ItemID);
 
         Task<ServiceResponse<List<GetCartDTO>>> RemoveCart(RemoveCartDTO removeCart);
 

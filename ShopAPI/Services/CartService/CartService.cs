@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.Json;
 using ShopAPI.Data;
 using ShopAPI.DTOs.Cart;
 using ShopAPI.Models;
+using Newtonsoft.Json;
 
 namespace ShopAPI.Services.CartService
 {
@@ -70,11 +72,6 @@ namespace ShopAPI.Services.CartService
 
             try
             {
-                //Cart cart = new Cart 
-                //{ 
-                //    UserID = newCart.UserID,
-                //    CartTotal = newCart.CartTotal
-                //};
                 var cart = _mapper.Map<Cart>(newCart);
 
                 await _context.Carts.AddAsync(cart);
@@ -97,37 +94,48 @@ namespace ShopAPI.Services.CartService
         {
             var serviceResponse = new ServiceResponse<GetCartDTO>();
 
-            try
+
+            var existingCart = await _context.Carts.FirstOrDefaultAsync(x => x.UserID == cartItem.UserID);
+
+            if (existingCart is null)
             {
-                var existingCart= await _context.Carts.FirstOrDefaultAsync(x => x.UserID == cartItem.UserID);
-
-                if (existingCart is null)
-                    throw new Exception($"Cart with UserID '{cartItem.UserID}' does not exist!");
-
-                Item newItem = new Item
+                try
                 {
-                    Name = cartItem.ItemName,
-                    Description = cartItem.ItemDescription,
-                    Price = cartItem.ItemPrice,
-                    Id = cartItem.ItemID,
-                    Image = cartItem.Image,
-                    ItemsCategory = cartItem.ItemCategory
-                };
+                    var cart = _mapper.Map<Cart>(cartItem);
+                    await _context.Carts.AddAsync(cart);
+                    await _context.SaveChangesAsync();
 
-                existingCart.CartItems.Add(newItem);
-                existingCart.CartTotal += cartItem.ItemPrice;
+                    serviceResponse.Data = _mapper.Map<GetCartDTO>(existingCart);
+                    serviceResponse.Success = true;
+                    serviceResponse.Message = "Successfully created a new cart!";
 
-                await _context.SaveChangesAsync();
-
-                serviceResponse.Data = _mapper.Map<GetCartDTO>(existingCart);
-                serviceResponse.Success = true;
-                serviceResponse.Message = "Successfully updated the cart!";
+                }
+                catch (Exception ex)
+                {
+                    serviceResponse.Success = false;
+                    serviceResponse.Message = ex.Message;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                serviceResponse.Success = false;
-                serviceResponse.Message = ex.Message;
+                try
+                {
+                    var FindItem = await _context.Carts.Where(x => x.UserID == cartItem.UserID).FirstOrDefaultAsync();
+                    FindItem.CartItems = cartItem.CartItems;
+                    await _context.SaveChangesAsync();
+
+                    serviceResponse.Data = _mapper.Map<GetCartDTO>(FindItem);
+                    serviceResponse.Success = true;
+                    serviceResponse.Message = "Successfully updated the cart!";
+                }
+                catch (Exception ex)
+                {
+                    serviceResponse.Success = false;
+                    serviceResponse.Message = ex.Message;
+                }
+
             }
+
 
             return serviceResponse;
         }
@@ -138,10 +146,10 @@ namespace ShopAPI.Services.CartService
 
             try
             {
-                var existingCart = await _context.Carts.FirstOrDefaultAsync(x => x.CartID == removeCart.CartID && x.UserID == removeCart.UserID);
+                var existingCart = await _context.Carts.FirstOrDefaultAsync(x => x.UserID == removeCart.UserID);
 
                 if (existingCart is null)
-                    throw new Exception($"Cart with CartID '{removeCart.CartID}' & UserID '{removeCart.UserID}' does not exist!");
+                    throw new Exception($"Cart with UserID '{removeCart.UserID}' does not exist!");
 
                 _context.Carts.Remove(existingCart);
                 await _context.SaveChangesAsync();
@@ -159,7 +167,7 @@ namespace ShopAPI.Services.CartService
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<GetCartDTO>> RemoveCartItem(int UserID, Item item)
+        public async Task<ServiceResponse<GetCartDTO>> RemoveCartItem(int UserID, int ItemID)
         {
             var serviceResponse = new ServiceResponse<GetCartDTO>();
 
@@ -169,29 +177,45 @@ namespace ShopAPI.Services.CartService
 
                 if (cart is null)
                 {
-                    serviceResponse.Success=false;
-                    serviceResponse.Message = $"Cart with UserID '{UserID}' does not exist.";
+                    serviceResponse.Success = false;
+                    //serviceResponse.Message = $"Cart with UserID '{removeCart.UserID}' does not exist.";
                 }
                 else
                 {
-                    var ItemExists = cart.CartItems.Select(x => x.Id == item.Id);
+                    var DeserializeItems = JsonConvert.DeserializeObject<List<Item>>(cart.CartItems);
+                    List<Item> items = new List<Item>();
 
-                    if (ItemExists is null)
+
+                    if (DeserializeItems != null)
                     {
-                        serviceResponse.Success=false;
-                        serviceResponse.Message = $"Item with Id '{item.Id}' does not exist.";
-                    }
-                    else
-                    {
-                        bool DeletedItem = cart.CartItems.Remove(item);
-                        cart.CartTotal -= item.Price;
+                        
+                        items.AddRange(DeserializeItems);
+
+                        for (var i = 0; i < items.Count; i++)
+                        {
+                            if (items[i].Id == ItemID)
+                            {
+                                items.Remove(items[i]);
+                            }
+                        }
+
+                        var SeserializedItems = System.Text.Json.JsonSerializer.Serialize(items);
+
+                        cart.CartItems = SeserializedItems;
+
                         await _context.SaveChangesAsync();
                         serviceResponse.Success = true;
                         serviceResponse.Message = "Item has been deleted from cart.";
+
+                    }
+                    else
+                    {
+                        serviceResponse.Success = false;
+
                     }
 
                 }
-                
+
             }
             catch (Exception ex)
             {
@@ -223,7 +247,7 @@ namespace ShopAPI.Services.CartService
         //            serviceresponse.Message = "Returned all cart items successfully!";
         //        }
 
-                
+
         //    }
         //    catch (Exception ex)
         //    {

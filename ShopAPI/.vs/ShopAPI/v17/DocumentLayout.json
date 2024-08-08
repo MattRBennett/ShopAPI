@@ -3,56 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\services\\cartservice\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:services\\cartservice\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\services\\itemservice\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:services\\itemservice\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\services\\cartservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:services\\cartservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\cart\\addcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\cart\\addcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\services\\cartservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:services\\cartservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\services\\itemservice\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:services\\itemservice\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\cart\\removecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\cart\\removecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\cart\\getcartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\cart\\getcartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\cart\\additemtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\cart\\additemtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\cart\\getcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\cart\\getcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\cart\\addcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\cart\\addcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\cart\\getallcartitemsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\cart\\getallcartitemsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\cart\\removecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\cart\\removecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\services\\itemservice\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:services\\itemservice\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\data\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:data\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\data\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\dtos\\user\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:dtos\\user\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|c:\\users\\matthew-lt\\documents\\github\\shopapi\\shopapi\\services\\itemservice\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FE801D-D293-42B7-802A-D4644D0AF93B}|ShopAPI.csproj|solutionrelative:services\\itemservice\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,56 +122,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "GetCartItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\GetCartItemDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Cart\\GetCartItemDTO.cs",
+              "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\GetCartItemDTO.cs",
+              "RelativeToolTip": "DTOs\\Cart\\GetCartItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:59:56.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RemoveCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\RemoveCartDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Cart\\RemoveCartDTO.cs",
+              "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\RemoveCartDTO.cs",
+              "RelativeToolTip": "DTOs\\Cart\\RemoveCartDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:59:50.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RemoveCartItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\RemoveCartItemDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Cart\\RemoveCartItemDTO.cs",
+              "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\RemoveCartItemDTO.cs",
+              "RelativeToolTip": "DTOs\\Cart\\RemoveCartItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:59:26.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAllCartItemsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\GetAllCartItemsDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Cart\\GetAllCartItemsDTO.cs",
+              "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\GetAllCartItemsDTO.cs",
+              "RelativeToolTip": "DTOs\\Cart\\GetAllCartItemsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:59:10.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\GetCartDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Cart\\GetCartDTO.cs",
+              "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\GetCartDTO.cs",
+              "RelativeToolTip": "DTOs\\Cart\\GetCartDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:21:16.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddItemToCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\AddItemToCartDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Cart\\AddItemToCartDTO.cs",
+              "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\AddItemToCartDTO.cs",
+              "RelativeToolTip": "DTOs\\Cart\\AddItemToCartDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:13:51.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Models\\Transactions.cs",
+              "RelativeDocumentMoniker": "Models\\Transactions.cs",
+              "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Models\\Transactions.cs",
+              "RelativeToolTip": "Models\\Transactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:02:52.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:22:48.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ItemService.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Services\\ItemService\\ItemService.cs",
               "RelativeDocumentMoniker": "Services\\ItemService\\ItemService.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Services\\ItemService\\ItemService.cs",
               "RelativeToolTip": "Services\\ItemService\\ItemService.cs",
-              "ViewState": "AQIAADoAAAAAZWZmZqYmwAAAAAAAAAAA",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T20:16:22.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AddCartDTO.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\AddCartDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\Cart\\AddCartDTO.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\Cart\\AddCartDTO.cs",
               "RelativeToolTip": "DTOs\\Cart\\AddCartDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:53:54.281Z"
+              "WhenOpened": "2024-08-07T19:53:54.281Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Models\\Item.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Models\\Item.cs",
               "RelativeToolTip": "Models\\Item.cs",
-              "ViewState": "AQIAAAcAAACgzMzMzMwuwAwAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:30:28.861Z"
+              "WhenOpened": "2024-08-07T19:30:28.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "AutoMapperProfile.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\AutoMapperProfile.cs",
               "RelativeToolTip": "AutoMapperProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T18:30:43.166Z"
+              "WhenOpened": "2024-08-07T18:30:43.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "UserRegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\User\\UserRegisterDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\UserRegisterDTO.cs",
@@ -147,11 +286,12 @@
               "RelativeToolTip": "DTOs\\User\\UserRegisterDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T18:26:39.126Z"
+              "WhenOpened": "2024-08-07T18:26:39.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "UserLoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\DTOs\\User\\UserLoginDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\UserLoginDTO.cs",
@@ -159,11 +299,12 @@
               "RelativeToolTip": "DTOs\\User\\UserLoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T18:26:37.833Z"
+              "WhenOpened": "2024-08-07T18:26:37.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Data\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "Data\\IAuthRepository.cs",
@@ -171,23 +312,25 @@
               "RelativeToolTip": "Data\\IAuthRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T18:26:24.398Z"
+              "WhenOpened": "2024-08-07T18:26:24.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Data\\AuthRepository.cs",
               "RelativeDocumentMoniker": "Data\\AuthRepository.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Data\\AuthRepository.cs",
               "RelativeToolTip": "Data\\AuthRepository.cs",
-              "ViewState": "AQIAACUAAADA8////z8kwDEAAAAJAAAA",
+              "ViewState": "AQIAABYAAADA8////z8kwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T18:25:59.508Z"
+              "WhenOpened": "2024-08-07T18:25:59.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -195,48 +338,51 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AQIAAAcAAABAMTMzMzMrwBIAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T18:25:43.849Z"
+              "WhenOpened": "2024-08-07T18:25:43.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAWwCsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T12:10:05.727Z"
+              "WhenOpened": "2024-08-07T12:10:05.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Models\\Cart.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Models\\Cart.cs",
               "RelativeToolTip": "Models\\Cart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T12:07:14.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartController.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Controllers\\CartController.cs",
               "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AQIAABcAAACg/f////8lwCYAAAAIAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T11:59:24.6Z"
+              "WhenOpened": "2024-08-07T11:59:24.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "IItemService.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Services\\ItemService\\IItemService.cs",
               "RelativeDocumentMoniker": "Services\\ItemService\\IItemService.cs",
@@ -244,41 +390,44 @@
               "RelativeToolTip": "Services\\ItemService\\IItemService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T11:41:01.072Z"
+              "WhenOpened": "2024-08-07T11:41:01.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Controllers\\ItemController.cs",
               "RelativeToolTip": "Controllers\\ItemController.cs",
-              "ViewState": "AQIAAAMAAACAMTMzMzMLwA8AAAAJAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAuwA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T11:39:40.873Z"
+              "WhenOpened": "2024-08-07T11:39:40.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ICartService.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Services\\CartService\\ICartService.cs",
               "RelativeDocumentMoniker": "Services\\CartService\\ICartService.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Services\\CartService\\ICartService.cs",
               "RelativeToolTip": "Services\\CartService\\ICartService.cs",
-              "ViewState": "AQIAAAYAAACAYWZmZmb+vw8AAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T11:37:40.503Z"
+              "WhenOpened": "2024-08-07T11:37:40.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Services\\CartService\\CartService.cs",
               "RelativeDocumentMoniker": "Services\\CartService\\CartService.cs",
               "ToolTip": "C:\\Users\\Matthew-LT\\Documents\\GitHub\\ShopAPI\\ShopAPI\\Services\\CartService\\CartService.cs",
               "RelativeToolTip": "Services\\CartService\\CartService.cs",
-              "ViewState": "AQIAABIAAADAAAAAACA8wF0AAAAIAAAA",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAkwKoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T11:37:39.815Z",
               "EditorCaption": ""

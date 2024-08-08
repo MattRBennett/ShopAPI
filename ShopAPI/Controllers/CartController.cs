@@ -37,7 +37,7 @@ namespace ShopAPI.Controllers
         {
             return Ok(await _cartService.AddNewCart(newCart));
         }
-        [HttpPut("AddCartItem")]
+        [HttpPost("AddCartItem")]
         public async Task<ActionResult<GetCartDTO>> AddCartItem(AddItemToCartDTO cartItem)
         {
             return Ok(await _cartService.AddCartItem(cartItem));
@@ -47,10 +47,10 @@ namespace ShopAPI.Controllers
         {
             return Ok(await _cartService.RemoveCart(removeCart));
         }
-        [HttpPut("RemoveCartItem")]
-        public async Task<ActionResult<GetCartDTO>> RemoveCartItem(int UserID, Item item)
+        [HttpDelete("RemoveCartItem")]
+        public async Task<ActionResult<GetCartDTO>> RemoveCartItem(int UserID, int ItemID)
         {
-            return Ok(await _cartService.RemoveCartItem(UserID, item));
+            return Ok(await _cartService.RemoveCartItem(UserID, ItemID));
         }
         
     }
