@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
+using ShopAPI.DTOs.User;
 using ShopAPI.Migrations;
 using ShopAPI.Models;
 using User = ShopAPI.Models.User;
@@ -9,9 +10,11 @@ namespace ShopAPI.Data
     public class AuthRepository : IAuthRepository
     {
         private readonly DataContext _context;
-        public AuthRepository(DataContext context)
+        private readonly IMapper _mapper;
+        public AuthRepository(DataContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         public async Task<ServiceResponse<int>> Login(string username, string password)
@@ -43,9 +46,9 @@ namespace ShopAPI.Data
             return response;
         }
 
-        public async Task<ServiceResponse<int>> Register(User user, string password)
+        public async Task<ServiceResponse<GetUserDetailsDTO>> Register(User user, string password)
         {
-            var response = new ServiceResponse<int>();
+            var response = new ServiceResponse<GetUserDetailsDTO>();
             bool DoesUserExist = await UserExists(user.Username);
             
             if (!DoesUserExist)
@@ -57,9 +60,10 @@ namespace ShopAPI.Data
 
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
+                var Details = _context.Users.FirstOrDefault(x => x.Id == user.Id);
                 response.Success = true;
                 response.Message = "New user has successfully been registered.";
-                response.Data = user.Id;
+                response.Data =  _mapper.Map<GetUserDetailsDTO>(Details);
             }
             else
             {

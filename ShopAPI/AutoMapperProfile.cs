@@ -1,4 +1,5 @@
-﻿using ShopAPI.DTOs.User;
+﻿using ShopAPI.DTOs.Cart;
+using ShopAPI.DTOs.User;
 using ShopAPI.Models;
 
 namespace ShopAPI
@@ -13,6 +14,18 @@ namespace ShopAPI
             CreateMap<DeleteItemDTO, Item>();
 
             CreateMap<User, GetUserDetailsDTO>();
+
+
+            CreateMap<Cart, GetAllCartItemsDTO>();
+            CreateMap<Cart, AddItemToCartDTO>();
+            CreateMap<AddCartDTO, Cart>();
+            CreateMap<Cart, GetCartDTO>();
+            CreateMap<Cart, GetCartItemDTO>();
+            CreateMap<Cart, RemoveCartDTO>();
+            CreateMap<Cart, RemoveCartItemDTO>();
+
+            
+
         }
     }
 }

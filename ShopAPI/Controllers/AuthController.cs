@@ -16,7 +16,7 @@ namespace ShopAPI.Controllers
         }
 
         [HttpPost("Register")]
-        public async Task<ActionResult<ServiceResponse<int>>> Register(UserRegisterDTO request)
+        public async Task<ActionResult<ServiceResponse<User>>> Register(UserRegisterDTO request)
         {
             var response = await _authRepository.Register(new User
             {
